@@ -1,0 +1,28 @@
+.CardListContainer {
+	height: 100%;
+	margin: 0 auto;
+	width: 30%; /*  aici schimb pt screen mai mic cu @media */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+@media (max-width: 1200px) {
+	.CardListContainer {
+		width: 60%;
+	}
+}
+
+@media (max-width: 860px) {
+	.CardListContainer {
+		width: 75%;
+	}
+}
+
+@media (max-width: 540px) {
+	.CardListContainer {
+		width: 90%;
+	}
+}
